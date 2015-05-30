@@ -4,9 +4,17 @@
         <servlet-name>ExceptionRest</servlet-name>
         <servlet-class>com.servlets.ExceptionRest</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddException</servlet-name>
+        <servlet-class>com.servlets.AddException</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ExceptionRest</servlet-name>
         <url-pattern>/ExceptionRest</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddException</servlet-name>
+        <url-pattern>/AddException</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
