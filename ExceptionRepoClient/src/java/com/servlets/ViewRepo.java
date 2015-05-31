@@ -16,14 +16,14 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author abinash
  */
-public class AddException extends HttpServlet {
+public class ViewRepo extends HttpServlet {
 
     
+
     
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.sendRedirect("addException.jsp");
     }
 
     @Override

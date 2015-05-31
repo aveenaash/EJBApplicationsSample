@@ -8,6 +8,10 @@
         <servlet-name>AddException</servlet-name>
         <servlet-class>com.servlets.AddException</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ViewRepo</servlet-name>
+        <servlet-class>com.servlets.ViewRepo</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ExceptionRest</servlet-name>
         <url-pattern>/ExceptionRest</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>AddException</servlet-name>
         <url-pattern>/AddException</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewRepo</servlet-name>
+        <url-pattern>/ViewRepo</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
